@@ -8,7 +8,7 @@ from PIL import Image, ImageTk
 import google.generativeai as genai
 
 # ----------------- CONFIG -----------------
-GEMINI_API_KEY = "AIzaSyCkuUhRPoUwsCpb5k2NS5WEOm6x9DdCv6I"  # <-- replace with your Gemini key
+GEMINI_API_KEY = "Use your API"  # <-- replace with your Gemini key
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
